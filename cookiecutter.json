@@ -1,0 +1,17 @@
+{
+  "full_name": "your name",
+  "email": "your email",
+  "project_name": "myproject",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "This package is doing...",
+  "python_version": ["3.7"],
+  "cbdf_api_version": [
+    "3.0.2"
+  ],
+  "create_author_file": "y",
+  "license": [
+    "MIT license",
+    "BSD license",
+    "Other"
+  ]
+}
